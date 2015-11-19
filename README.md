@@ -1,7 +1,7 @@
 # Installation
 
-:> pip install -r requirements.txt
+`:> pip install -r requirements.txt`
 
 # Usage
 
-:> python
+`:> python serial_reader.py --baud=<baudrate> <device>`

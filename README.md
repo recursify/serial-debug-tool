@@ -14,3 +14,8 @@ output.
 # Usage
 
 `:> python serial_reader.py --baud=<baudrate> <device>`
+
+
+The path to `<device>` will depend on your OS.  To find on OSX:
+
+`:> ls /dev/tty.usbserial*`

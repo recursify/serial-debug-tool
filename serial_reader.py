@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 from argparse import ArgumentParser
+import sys
 import serial
 
 def run(device, baud):
@@ -8,7 +9,7 @@ def run(device, baud):
         while True:
             line = ser.readline()
             if line:
-                print line
+                sys.stdout.write(line)
 
 if __name__ == '__main__':
     parser = ArgumentParser()
